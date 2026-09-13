@@ -1,72 +1,479 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Abhishek Das | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Das | Aspiring DevOps Engineer</title>
+  <meta name="description" content="Abhishek Das is a Process Consultant Trainee and BCA student transitioning into DevOps and Cloud Engineering through daily Linux practice, automation projects, AWS fundamentals, and hands-on web builds." />
+  <meta name="author" content="Abhishek Das" />
+  <meta name="keywords" content="Abhishek Das, DevOps Engineer, Cloud Engineer, Linux, AWS, BCA, Portfolio, Bangalore" />
+  <meta name="theme-color" content="#081113" />
+
+  <meta property="og:title" content="Abhishek Das | Aspiring DevOps Engineer" />
+  <meta property="og:description" content="Process Consultant Trainee to aspiring DevOps Engineer: Linux, AWS fundamentals, Git/GitHub, automation, and hands-on web projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://github.com/Abhish3k-1.png?size=1200" />
+  <meta property="og:url" content="https://github.com/Abhish3k-1" />
+
+  <link rel="canonical" href="https://github.com/Abhish3k-1" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <nav>
-    <div class="container nav-container">
-      <h1>Abhishek Das</h1>
-      <p>BCA Student | AI Enthusiast | Fullstack Developer</p>
-    </div>
-  </nav>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <section class="about container fade-in">
-    <h2>About Me</h2>
-    <p>Motivated and detail-oriented BCA student with a 9.3+ CGPA, strong foundation in computer science, and hands-on experience in web development. Passionate about building real-world tech solutions and eager to grow as a full stack developer. Looking for a software development role where I can learn and contribute effectively.
-</p>
-  </section>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#hero" aria-label="Abhishek Das home">
+        <span class="brand-mark" aria-hidden="true">AD</span>
+        <span class="brand-text">Abhishek Das</span>
+      </a>
 
-  <section class="skills container fade-in">
-    <h2>Skills</h2>
-    <ul>
-      <li>C</li>
-      <li>Python</li>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Git & GitHub</li>
-      <li>AWS</li>
-      <li>Database[mySQL,MongoDB]</li>
-    </ul>
-  </section>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-  <section class="projects container fade-in">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Rock Paper Scissors Game</h3>
-      <p>Fun JavaScript game with interactive UI.</p>
-      <a href="https://github.com/Abhish3k-1/rock-paper-scissors-game" target="_blank">View Project</a>
-    </div>
+      <div class="nav-links" id="nav-links">
+        <a href="#journey">Journey</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#linux-log">Linux Log</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="ABHISHEK%20DAS.pdf" download="Abhishek-Das-Resume.pdf">Resume</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <span class="theme-toggle-track" aria-hidden="true">
+            <span class="theme-toggle-thumb"></span>
+          </span>
+        </button>
+      </div>
+    </nav>
+  </header>
 
+  <main id="main">
+    <section class="hero shell" id="hero">
+      <div class="hero-grid">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Available for Associate DevOps, Cloud Support, and SRE trainee roles</p>
+          <h1>Abhishek Das</h1>
+          <p class="hero-role">Process Consultant &rarr; Aspiring DevOps Engineer</p>
+          <p class="hero-text">
+            I am building a deliberate bridge from operations into cloud engineering:
+            full-time process discipline, a 9.28 CGPA BCA track, daily Linux practice,
+            and hands-on projects across automation, web systems, Git, and AWS fundamentals.
+          </p>
 
-    <div class="project-card">
-      <h3>Tic-Tac-Toe Game</h3>
-      <p>Fun JavaScript game with interactive UI.</p>
-      <a href="https://github.com/Abhish3k-1/tic-tac-toe" target="_blank">View Project</a>
-    </div>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="ABHISHEK%20DAS.pdf" download="Abhishek-Das-Resume.pdf">Download Resume</a>
+            <a class="button button-ghost" href="#contact">Contact Me</a>
+          </div>
 
+          <div class="hero-signals" aria-label="Career highlights">
+            <div class="signal glass-card glare-card">
+              <strong>9.28</strong>
+              <span>BCA CGPA</span>
+            </div>
+            <div class="signal glass-card glare-card">
+              <strong>10/day</strong>
+              <span>Linux reps</span>
+            </div>
+            <div class="signal glass-card glare-card">
+              <strong>AWS</strong>
+              <span>Cloud focus</span>
+            </div>
+            <div class="signal glass-card glare-card">
+              <strong>2023-26</strong>
+              <span>BCA student</span>
+            </div>
+          </div>
+        </div>
 
-    <div class="project-card">
-      <h3>Amazon Clone</h3>
-      <p>A simple frontend-only Amazon clone using HTML & CSS.</p>
-      <a href="https://github.com/Abhish3k-1/clone" target="_blank">View Project</a>
-    </div>
-    
-  </section>
+        <div class="hero-visual" aria-label="Profile and learning snapshot" data-reveal>
+          <article class="profile-card glass-card glare-card">
+            <div class="profile-topline">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>In active transition</span>
+            </div>
+            <img class="profile-avatar" src="https://github.com/Abhish3k-1.png?size=320" alt="Abhishek Das GitHub profile photo" width="160" height="160" />
+            <h2>Cloud operations mindset with builder energy.</h2>
+            <p>Bangalore, Karnataka, India</p>
+          </article>
 
-  <section class="contact container fade-in">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:abhishe10k@gmail.com">abhishe10k@gmail.com</a></p>
-    <p>Phone: <a href="tel:+918822810916">+91 88228 10916</a></p>
-    <p><a href="https://www.linkedin.com/in/abhishek-das-68b674298/" target="_blank">LinkedIn</a></p>
-    <p><a href="https://github.com/Abhish3k-1" target="_blank">GitHub</a></p>
-    <p><a href="ABHISHEK DAS.pdf" download class="resume-btn">📄 Download Resume</a></p>
-  </section>
+          <article class="terminal-card glass-card glare-card" aria-label="Daily technical practice snapshot">
+            <div class="terminal-bar" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <code>$ focus --today</code>
+            <ul>
+              <li><span>linux</span><strong>commands, permissions, processes</strong></li>
+              <li><span>automation</span><strong>shell scripts and repeatable checks</strong></li>
+              <li><span>cloud</span><strong>AWS fundamentals and support thinking</strong></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <p>&copy; Abhishek Das</p>
+    <section class="section shell" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Past &rarr; Present &rarr; Future</p>
+        <h2 id="journey-title">My Journey</h2>
+        <p>
+          The story is not a sudden pivot. It is a steady transfer of discipline:
+          from process quality, to systems troubleshooting, to cloud and DevOps practice.
+        </p>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item glass-card glare-card" data-reveal>
+          <span class="timeline-step">01</span>
+          <span class="timeline-date">Now</span>
+          <h3>Process Consultant Trainee</h3>
+          <p>
+            Working full-time while keeping high quality and performance scores. I became
+            the person teammates look to when tools, workflows, or systems need calm technical troubleshooting.
+          </p>
+        </li>
+        <li class="timeline-item glass-card glare-card" data-reveal>
+          <span class="timeline-step">02</span>
+          <span class="timeline-date">Present focus</span>
+          <h3>Daily Linux and DevOps reps</h3>
+          <p>
+            Building the foundation intentionally: Linux commands, shell scripting,
+            Git/GitHub, AWS fundamentals, databases, and small automation habits that compound.
+          </p>
+        </li>
+        <li class="timeline-item glass-card glare-card" data-reveal>
+          <span class="timeline-step">03</span>
+          <span class="timeline-date">Next few months</span>
+          <h3>Junior cloud role</h3>
+          <p>
+            Targeting Associate or Junior DevOps Engineer, Cloud Support Engineer,
+            or SRE trainee roles where I can support reliable systems and grow fast on real infrastructure.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section shell" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Focused skill map</p>
+        <h2 id="skills-title">Skills I Am Building and Using</h2>
+        <p>
+          My current stack combines systems practice, programming fundamentals,
+          cloud basics, and the communication habits that make support work effective.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-group glass-card glare-card" data-reveal>
+          <h3>Linux and Systems</h3>
+          <div class="tag-list">
+            <span>Linux CLI</span>
+            <span>File permissions</span>
+            <span>Processes</span>
+            <span>Networking basics</span>
+            <span>Daily command reps</span>
+          </div>
+        </article>
+        <article class="skill-group glass-card glare-card" data-reveal>
+          <h3>Scripting and Programming</h3>
+          <div class="tag-list">
+            <span>Shell scripting</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>C</span>
+            <span>Automation logic</span>
+          </div>
+        </article>
+        <article class="skill-group glass-card glare-card" data-reveal>
+          <h3>Cloud</h3>
+          <div class="tag-list">
+            <span>AWS fundamentals</span>
+            <span>Cloud support</span>
+            <span>Compute basics</span>
+            <span>Storage basics</span>
+            <span>Reliability mindset</span>
+          </div>
+        </article>
+        <article class="skill-group glass-card glare-card" data-reveal>
+          <h3>Version Control</h3>
+          <div class="tag-list">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Branching</span>
+            <span>Commits</span>
+            <span>Repo hygiene</span>
+          </div>
+        </article>
+        <article class="skill-group glass-card glare-card" data-reveal>
+          <h3>Web Development</h3>
+          <div class="tag-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Supabase</span>
+            <span>MySQL</span>
+            <span>MongoDB</span>
+          </div>
+        </article>
+        <article class="skill-group glass-card glare-card" data-reveal>
+          <h3>Soft Skills</h3>
+          <div class="tag-list">
+            <span>Problem-solving</span>
+            <span>Troubleshooting</span>
+            <span>Communication</span>
+            <span>Cross-team support</span>
+            <span>Quality focus</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Hands-on proof</p>
+        <h2 id="projects-title">Projects</h2>
+        <p>
+          These builds show the shape of how I learn: choose a real workflow,
+          make it functional, then keep improving the system.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card glare-card" data-reveal>
+          <div class="project-heading">
+            <span class="project-type">Full workflow</span>
+            <span class="repo-status">Featured build</span>
+          </div>
+          <h3>SmartDine AI</h3>
+          <p>
+            QR-based restaurant ordering and kitchen management system designed
+            to connect customer ordering, staff operations, and live order tracking.
+          </p>
+          <div class="tag-list compact">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Supabase</span>
+            <span>Realtime flow</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Abhish3k-1?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card glare-card" data-repo="ai-interview-tool" data-reveal>
+          <div class="project-heading">
+            <span class="project-type">AI integration</span>
+            <span class="repo-status">Loading repo data</span>
+          </div>
+          <h3>AI Interview Tool</h3>
+          <p>
+            Interview preparation app that uses AI API workflows to help users
+            practice answers, refine responses, and prepare with more structure.
+          </p>
+          <div class="tag-list compact">
+            <span>JavaScript</span>
+            <span>AI APIs</span>
+            <span>Prompt flows</span>
+            <span>Frontend UX</span>
+          </div>
+          <div class="repo-facts" aria-live="polite">
+            <span class="repo-stars">Stars --</span>
+            <span class="repo-updated">Updated --</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Abhish3k-1/ai-interview-tool" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card glare-card" data-repo="clone" data-reveal>
+          <div class="project-heading">
+            <span class="project-type">Frontend clone</span>
+            <span class="repo-status">Loading repo data</span>
+          </div>
+          <h3>E-Commerce Clone</h3>
+          <p>
+            Responsive commerce-style interface built to practice layout systems,
+            product cards, navigation patterns, and polished frontend details.
+          </p>
+          <div class="tag-list compact">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Responsive UI</span>
+            <span>Layout</span>
+          </div>
+          <div class="repo-facts" aria-live="polite">
+            <span class="repo-stars">Stars --</span>
+            <span class="repo-updated">Updated --</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Abhish3k-1/clone" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card glare-card" data-repo="tic-tac-toe" data-reveal>
+          <div class="project-heading">
+            <span class="project-type">Browser game</span>
+            <span class="repo-status">Loading repo data</span>
+          </div>
+          <h3>Tic-Tac-Toe</h3>
+          <p>
+            JavaScript game focused on DOM state, turn logic, win detection,
+            reset flows, and a simple interactive player experience.
+          </p>
+          <div class="tag-list compact">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Game logic</span>
+          </div>
+          <div class="repo-facts" aria-live="polite">
+            <span class="repo-stars">Stars --</span>
+            <span class="repo-updated">Updated --</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Abhish3k-1/tic-tac-toe" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card glare-card" data-repo="rock-paper-scissors-game" data-reveal>
+          <div class="project-heading">
+            <span class="project-type">Browser game</span>
+            <span class="repo-status">Loading repo data</span>
+          </div>
+          <h3>Rock Paper Scissors</h3>
+          <p>
+            Lightweight JavaScript game with interactive controls, score tracking,
+            round feedback, and quick browser-based play.
+          </p>
+          <div class="tag-list compact">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Interaction</span>
+          </div>
+          <div class="repo-facts" aria-live="polite">
+            <span class="repo-stars">Stars --</span>
+            <span class="repo-updated">Updated --</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/Abhish3k-1/rock-paper-scissors-game" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="linux-log" aria-labelledby="linux-title">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Consistency signal</p>
+        <h2 id="linux-title">Daily Linux Learning Log</h2>
+        <p>
+          A small public proof that the transition is active, structured, and based on repeated practice.
+        </p>
+      </div>
+
+      <div class="linux-grid">
+        <article class="linux-counter glass-card glare-card" data-reveal>
+          <span class="counter-label">Current streak marker</span>
+          <strong id="linux-day-count">Active</strong>
+          <span id="linux-day-copy">daily Linux practice</span>
+          <div class="progress-rail" aria-hidden="true">
+            <span></span>
+          </div>
+          <p>Target pace: 10 Linux commands every day, with notes that turn commands into repeatable troubleshooting knowledge.</p>
+        </article>
+
+        <div class="practice-grid" aria-label="Linux practice focus areas">
+          <article class="practice-card glass-card glare-card" data-reveal>
+            <span>01</span>
+            <h3>Commands</h3>
+            <p>Navigation, file work, permissions, search, processes, pipes, and redirects.</p>
+          </article>
+          <article class="practice-card glass-card glare-card" data-reveal>
+            <span>02</span>
+            <h3>Shell</h3>
+            <p>Small scripts that reduce repeated work and make operational checks easier.</p>
+          </article>
+          <article class="practice-card glass-card glare-card" data-reveal>
+            <span>03</span>
+            <h3>GitHub</h3>
+            <p>Repos, commits, project history, and visible proof of learning in public.</p>
+          </article>
+          <article class="practice-card glass-card glare-card" data-reveal>
+            <span>04</span>
+            <h3>Cloud</h3>
+            <p>AWS fundamentals practiced through the lens of support, reliability, and debugging.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="certifications" aria-labelledby="certifications-title">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">Credential trail</p>
+        <h2 id="certifications-title">Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+        <article class="cert-card glass-card glare-card" data-reveal>
+          <span>Cloud Computing</span>
+          <h3>AWS Cloud Practitioner</h3>
+          <p>Foundational understanding of AWS services, cloud concepts, and support-oriented thinking.</p>
+        </article>
+        <article class="cert-card glass-card glare-card" data-reveal>
+          <span>Security</span>
+          <h3>SQL Injection Defense</h3>
+          <p>Practical awareness of common injection risks and safer database interaction patterns.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-layout">
+        <div class="section-heading contact-heading" data-reveal>
+          <p class="eyebrow">Let us connect</p>
+          <h2 id="contact-title">Ready for a Junior Cloud or DevOps Opportunity</h2>
+          <p>
+            I am open to Associate DevOps Engineer, Junior DevOps Engineer,
+            Cloud Support Engineer, and SRE trainee roles.
+          </p>
+          <a class="button button-primary" href="ABHISHEK%20DAS.pdf" download="Abhishek-Das-Resume.pdf">Download Resume</a>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-item glass-card glare-card" href="mailto:abhishe10k@gmail.com" data-reveal>
+            <span>Email</span>
+            <strong>abhishe10k@gmail.com</strong>
+          </a>
+          <a class="contact-item glass-card glare-card" href="tel:+918822810916" data-reveal>
+            <span>Phone</span>
+            <strong>+91 88228 10916</strong>
+          </a>
+          <a class="contact-item glass-card glare-card" href="https://www.linkedin.com/in/abhishek-das-68b674298/" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span>LinkedIn</span>
+            <strong>abhishek-das-68b674298</strong>
+          </a>
+          <a class="contact-item glass-card glare-card" href="https://github.com/Abhish3k-1" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span>GitHub</span>
+            <strong>github.com/Abhish3k-1</strong>
+          </a>
+          <div class="contact-item glass-card glare-card" data-reveal>
+            <span>Location</span>
+            <strong>Bangalore, Karnataka, India</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <p>&copy; <span id="year">2026</span> Abhishek Das. Open to cloud and DevOps opportunities.</p>
   </footer>
 </body>
 </html>
